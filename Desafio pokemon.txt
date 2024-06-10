@@ -1,0 +1,51 @@
+Desafio (batalha pokemon):
+
+
+[Início da Batalha]
+        |
+        v
+[Escolha do Pokémon]
+        |
+        v
+[Jogador Inicia a Ação]
+        |
+        v
+[Escolha de Ação]
+  /      |       \
+ /       |        \
+v        v         v
+Ataque  Defesa    Item/Outro
+  |       |              |
+  v       v              v
+[Calcula Dano]          [Ação Realizada]
+       |                         |
+       v                         v
+[HP Reduzido?]                 [HP Reduzido?]
+       |                                 |
+   /   |   \                             |
+  /    |    \                            v
+ v     v     v                       [Verifica Status]
+KO?   Swap    Cont.                       /          \
+ |     |        |                        v            v
+ v     v        v                  [Aplicar Status]     [Fugir?]
+Fim  Escolher  Novo Pokemon          |                |
+                                     v                v
+                                 [Fugiu?]       [Fim da Batalha]
+                                  /  \
+                                 v    v
+                                Sim   Não
+                                |      |
+                                v      v
+                             [Fim]   [Continuar]
+                                          |
+                                          v
+                                   [Fim da Rodada]
+                                          |
+                                          v
+                                 [Verificar Vitória]
+                                          |
+                                          v
+                                  [Vitória/Derrota?]
+                                          |
+                                          v
+                                   [Fim da Batalha]
